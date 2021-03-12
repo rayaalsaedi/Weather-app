@@ -1,0 +1,31 @@
+:root {
+    --primary: #ccdad1;
+    --secondary: #9caea9;
+    --tertiary: #788585;
+    --light-dark: #6f6866;
+    --dark: #38302e;
+    --border-radius: 0.3rem;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+.navbar{
+  
+  background: grey;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 150%;
+}
+.text{
+  text-align: center;
+}
+body{
+  font-size: 120%;
+
+}
+.form-select{
+width: 10%;
+
+
+}
