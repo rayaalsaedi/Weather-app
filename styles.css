@@ -30,5 +30,6 @@ width: 10%;
 
 }
 ul{
-  vertical-align: auto;
+  display: inline;
 }
+  

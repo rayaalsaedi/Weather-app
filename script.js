@@ -82,7 +82,7 @@ document.querySelector("#go-button").addEventListener("click", function () {
 })
 
 // box invisible using coding quiz method
-// arrange data in the five days 
+// arrange data in the five
 
 
 
