@@ -47,7 +47,6 @@ const weather = {
                 console.log(data);
                 document.querySelector(".uv").innerText = "UV Index: " + data.value;
             });
-        // document.querySelector(".border").classList.remove("loading");
     },
 
     // function to look up the input value and gets it from the findWeather
@@ -75,15 +74,15 @@ const weather = {
                         var temp= data.list[i].main.temp;
                         var humidity= data.list[i].main.humidity;
 
-document.querySelector(".forecast-one").innerText = "tempretaure is: " +temp + " ℃ "+ "Humidity is: " +humidity+ "%";
+document.querySelector(".forecast-one").innerText = "Tempretaure is: " +temp + " ℃ "+ "Humidity is: " +humidity+ "%";
 
-document.querySelector(".forecast-two").innerText = "tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
+document.querySelector(".forecast-two").innerText = "Tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
 
-document.querySelector(".forecast-three").innerText = "tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
+document.querySelector(".forecast-three").innerText = "Tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
 
-document.querySelector(".forecast-four").innerText = "tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
+document.querySelector(".forecast-four").innerText = "Tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
 
-document.querySelector(".forecast-five").innerText = "tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
+document.querySelector(".forecast-five").innerText = "Tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
                     
                 }
             });

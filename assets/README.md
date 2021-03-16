@@ -17,4 +17,4 @@ https://rayaalsaedi.github.io/Weather-app/
 
  # Screenshot:
 
-![Screenshot of Day-Planner](assets/screenshot.png)#
+![Screenshot of Day-Planner](assets/screenshot.png)
