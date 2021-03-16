@@ -94,8 +94,7 @@ document.querySelector("#go-button").addEventListener("click", function () {
     weather.search();
 })
 
-// box invisible using coding quiz method
-// arrange data in the five
+
 
 
 
