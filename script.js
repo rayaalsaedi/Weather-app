@@ -5,7 +5,7 @@ const weather = {
     findWeather: function (city) {
         //fetch URL
         fetch(
-            "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=" + this.apiKey
+            "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=" + this.apiKey
         )
             // Once URL fetched then use response.json to break down the information
             .then((response) => response.json())
@@ -38,7 +38,7 @@ const weather = {
         document.querySelector(".wind").innerText = "Wind Speed: " + speed + " km/h";
         this.fiveDays(name)
         fetch(
-            `http://api.openweathermap.org/data/2.5/uvi?lat=${lat}&lon=${lon}&appid=${this.apiKey}`
+            `https://api.openweathermap.org/data/2.5/uvi?lat=${lat}&lon=${lon}&appid=${this.apiKey}`
         )
             // Once URL fetched then use response.json to break down the information
             .then((response) => response.json())
@@ -60,7 +60,7 @@ const weather = {
     },
     fiveDays: function (city) {
         fetch(
-            "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=metric&appid=" + this.apiKey
+            "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=metric&appid=" + this.apiKey
         )
             // Once URL fetched then use response.json to break down the information
             .then((response) => response.json())
