@@ -71,15 +71,20 @@ const weather = {
                     const element = data.list[i];
                     if (element.dt_txt.indexOf("12:00:00") !== -1) {
                         console.log(element)
-//                         var temp= data.main;
-//                         var humidity= data.main;
-
-// document.querySelector(".forecast-one").innerText = temp + " ℃";
-// document.querySelector(".forecast-two").innerText = temp + " ℃";
-// document.querySelector(".forecast-three").innerText = temp + " ℃";
-// document.querySelector(".forecast-four").innerText = temp + " ℃";
-// document.querySelector(".forecast-five").innerText = temp + " ℃";
                     }
+                        var temp= data.list[i].main.temp;
+                        var humidity= data.list[i].main.humidity;
+
+document.querySelector(".forecast-one").innerText = "tempretaure is: " +temp + " ℃ "+ "Humidity is: " +humidity+ "%";
+
+document.querySelector(".forecast-two").innerText = "tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
+
+document.querySelector(".forecast-three").innerText = "tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
+
+document.querySelector(".forecast-four").innerText = "tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
+
+document.querySelector(".forecast-five").innerText = "tempretaure is: " +temp + " ℃ "+"Humidity is: " +humidity+ "%";
+                    
                 }
             });
     }
