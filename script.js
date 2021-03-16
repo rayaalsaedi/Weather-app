@@ -47,6 +47,7 @@ const weather = {
                 console.log(data);
                 document.querySelector(".uv").innerText = "UV Index: " + data.value;
             });
+        // document.querySelector(".border").classList.remove("loading");
     },
 
     // function to look up the input value and gets it from the findWeather
@@ -70,6 +71,14 @@ const weather = {
                     const element = data.list[i];
                     if (element.dt_txt.indexOf("12:00:00") !== -1) {
                         console.log(element)
+//                         var temp= data.main;
+//                         var humidity= data.main;
+
+// document.querySelector(".forecast-one").innerText = temp + " ℃";
+// document.querySelector(".forecast-two").innerText = temp + " ℃";
+// document.querySelector(".forecast-three").innerText = temp + " ℃";
+// document.querySelector(".forecast-four").innerText = temp + " ℃";
+// document.querySelector(".forecast-five").innerText = temp + " ℃";
                     }
                 }
             });
